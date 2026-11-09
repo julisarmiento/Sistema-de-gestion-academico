@@ -1,89 +1,103 @@
-# 🎓 Sistema de Gestión Académica
+<div align="center">
 
-**Guia para construir, ejecutar y testear el proyecto**
+# Sistema de Gestión Académica
 
-Sistema de gestión académica desarrollado como parte de la materia de Ingeniería de Software II, siguiendo buenas prácticas de diseño, arquitectura MVC + services y calidad de código.
+### Aplicación web para la administración de información académica
 
----
+Proyecto grupal desarrollado para la materia **Ingeniería de Software II** de la **Universidad Nacional de Río Cuarto (UNRC)**.
 
-## 🛠️ Tecnologías utilizadas
-
-- **Java 21**
-- **Spark Framework** — servidor web ligero
-- **ActiveJDBC** — ORM para la capa de persistencia
-- **SQLite** — base de datos relacional embebida
-- **Maven** — gestión de dependencias y build
-- **Mustache** — motor de plantillas para las vistas
-- **BCrypt** — hash seguro de contraseñas
-- **Tailwind CSS** — estilos de la interfaz
+</div>
 
 ---
 
-## ✅ Requisitos previos
+## Sobre el proyecto
 
-- ☕ Java 21
-- 📦 Maven instalado
-- 💻 Sistema operativo compatible: Windows / Linux / macOS
+El Sistema de Gestión Académica es una aplicación web orientada a organizar y administrar distintos procesos de una institución educativa.
 
----
+## Funcionalidades
 
-## 🏗️ Construcción del proyecto
+El sistema cuenta con módulos para:
 
-Primero, ubicarse en la carpeta del proyecto:
+- Gestión de estudiantes.
+- Gestión de docentes.
+- Administración de carreras y materias.
+- Gestión de planes de estudio.
+- Inscripciones académicas.
+- Administración de mesas de examen.
+- Autenticación y gestión de usuarios.
 
+## Tecnologías utilizadas
+
+- **Java:** desarrollo del backend.
+- **Spark Framework:** desarrollo de la aplicación web.
+- **SQLite:** base de datos.
+- **ActiveJDBC:** persistencia de datos.
+- **Mustache:** plantillas HTML.
+- **Maven:** gestión de dependencias y construcción del proyecto.
+- **BCrypt:** cifrado de contraseñas.
+
+## Instalación y ejecución
+
+### Requisitos previos
+
+- Java
+- Maven
+- Git
+
+### 1. Clonar el repositorio
+
+```bash
+git clone https://github.com/julisarmiento/Sistema-de-gestion-academico.git
 ```
-cd ingenieria-de-software2
+
+### 2. Acceder al directorio
+
+```bash
+cd Sistema-de-gestion-academico
 ```
 
-Luego, para compilar todo el proyecto y generar los artefactos necesarios ejecuta:
+### 3. Compilar el proyecto
 
-```
+```bash
 mvn clean install
 ```
-Para hacerlo en Windows y MacOs, también funciona:
 
-```
-mvn exec:java
-```
+### 4. Ejecutar la aplicación
 
-Lo que hara esto es:
+En Linux o macOS:
 
-- ✅ Compila clases
-- ✅ Ejecuta pruebas
-- ✅ Genera artefactos del build
-
----
-
-## 🎮 Ejecutar el proyecto
-
-Para iniciar el sistema.
-
-Primero hay que dar los permisos necesarios:
-```
-chmod + x run.sh
-```
-Luego, ejecutá:
-
-```
+```bash
+chmod +x run.sh
 ./run.sh
 ```
-Si se requiere compilar y ejecutar en un solo paso:
 
-```
-./run.sh build
-```
+### 5. Abrir la aplicación
 
-Luego abrí tu navegador en:
+Una vez iniciado el servidor, acceder desde el navegador a:
 
-```
-http://localhost:8080
-```
+`http://localhost:8080`
+
+## Documentación
+
+La carpeta [`documentacion`](documentacion/) contiene materiales elaborados durante el desarrollo del proyecto:
+
+- Requerimientos del sistema.
+- Análisis de riesgos.
+- Documentación del trabajo práctico.
+- Diagramas de arquitectura y diseño.
+
+## Equipo de desarrollo
+
+Proyecto realizado de manera colaborativa por:
+
+- [Ana Luz Masoero](https://github.com/Ana-Luz-Msr)
+- [Juliana Sarmiento](https://github.com/julisarmiento)
+- [Manuel Barbieri](https://github.com/Manuel-Sketch-s)
+- [Tomás Monzón](https://github.com/tomas-monzon)
+- [Yaideem Testa](https://github.com/ytesta28)
+
 ---
 
-## 👥 Integrantes del proyecto
+<div align="center">
 
-- 👨‍💻 [Sarmiento Juliana](https://github.com/julisarmiento)
-- 👨‍💻 [Barbieri Manuel](https://github.com/Manuel-Sketch-s)
-- 👨‍💻 [Monzon Tomas](https://github.com/tomas-monzon)
-- 👨‍💻 [Testa Yaideem](https://github.com/ytesta28)
-- 👨‍💻 [Masoero Ana Luz](https://github.com/Ana-Luz-Msr)
+</div>
